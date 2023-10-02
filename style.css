@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+}
+nav{
+    height:60px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #618264;
+    align-items: center;
+    position: fixed;
+}
+nav h1{
+    color:#F1EFEF;
+    letter-spacing: 0.03cm;
+    margin-left: 15px;
+    font-size: 2em;
+    margin-top: 5px;
+    
+}
+.main{
+    height:900px;
+    width: 100%;
+    background-color: #8EACCD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.instructions{
+    height:450px;
+    width:60%;
+    background-color: white;
+    margin-top: -100px;
+    
+}
+
+.instructions h1{
+    color:#618264;
+    padding-left: 8px;
+    margin-top: 10px;;
+}
+.content{
+    height:280px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+.content ol{
+    padding-left: 20px;
+}
+.content ol li{
+    
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+button{
+    height:40px;
+    width:200px;
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    left: 700px;
+}
+p{
+    font-size: 1.4em;
+    color: aliceblue;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    width:210px;
+    border-radius: 15px;
+    transition: 1s;
+}
+button:hover p{
+    font-size: 1.5em;
+    color: black;
+}
+button a{
+    text-decoration: none;
+}

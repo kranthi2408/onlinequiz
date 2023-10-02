@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+<h1>ONLINEQUIZ</h1>
+    </nav>
+    <div class="main">
+<div class="instructions">
+    <div class="info">
+      <h1 id="question_number">
+        Question 1
+      </h1>
+      <div class="timer">
+        
+        <h1 id="minutes">05</h1>
+        <h1>:</h1>
+<h1 id="seconds">00</h1>
+      </div>
+    </div>
+    <div class="question">
+   <div class="content">
+    <h1>What is the extension of Html file</h1>
+   <input type="radio" name="q1" id="q1o1" value="0">
+   <label for="">js</label><br>
+   <input type="radio" name="q1" id="q1o2" value="0">
+   <label for="">css</label><br>
+   <input type="radio" name="q1" id="q1o3" value="1">
+   <label for="">html</label><br>
+   <input type="radio" name="q1" id="q1o4" value="0">
+   <label for="">py</label><br>
+   </div>
+   <div class="btnnext">
+    <button class="next"><p>next</p></button>
+   </div>
+    </div>
+    <div class="question" >
+      <div class="content">
+       <h1>What is the extension of css file</h1>
+      <input type="radio" name="q2" id="q2o1" value="0">
+      <label for="">js</label><br>
+      <input type="radio" name="q2" id="q2o2" value="1">
+      <label for="">css</label><br>
+      <input type="radio" name="q2" id="q2o3" value="0">
+      <label for="">html</label><br>
+      <input type="radio" name="q2" id="q204" value="0">
+      <label for="">py</label><br>
+      </div>
+      <div class="btns">
+        <button class="previous"><p>previous</p></button>
+        <button class="next"><p>next</p></button>
+      </div>
+       </div>
+       <div class="question" >
+        <div class="content">
+         <h1>What is the extension of javascipt file</h1>
+        <input type="radio" name="q3" id="q3o1" value="1">
+        <label for="">js</label><br>
+        <input type="radio" name="q3" id="q3o2" value="0">
+        <label for="">css</label><br>
+        <input type="radio" name="q3" id="q3o3" value="0">
+        <label for="">html</label><br>
+        <input type="radio" name="q3" id="q304" value="0">
+        <label for="">py</label><br>
+        </div>
+        <div class="btns">
+          <button class="previous"><p>previous</p></button>
+          <button class="next"><p>next</p></button>
+        </div>
+         </div>
+         <div class="question" >
+          <div class="content">
+           <h1>What is the use of css</h1>
+          <input type="radio" name="q4" id="q4o1" value="0">
+          <label for="">behaviour purpose</label><br>
+          <input type="radio" name="q4" id="q4o2" value="1">
+          <label for="">style purpose</label><br>
+          <input type="radio" name="q4" id="q4o3" value="0">
+          <label for="">structure purpose</label><br>
+          <input type="radio" name="q4" id="q404" value="0">
+          <label for="">backend purpose</label><br>
+          </div>
+          <div class="btns">
+            <button class="previous"><p>previous</p></button>
+            <button class="next"><p>next</p></button>
+          </div>
+           </div>
+           <div class="question" >
+            <div class="content">
+             <h1>What is the use of js</h1>
+            <input type="radio" name="q5" id="q5o1" value="1">
+            <label for="">behaviour purpose</label><br>
+            <input type="radio" name="q5" id="q5o2" value="0" onclick="clicked()">
+            <label for="">style purpose</label><br>
+            <input type="radio" name="q5" id="q5o3" value="0" onclick="clicked()">
+            <label for="">structure purpose</label><br>
+            <input type="radio" name="q5" id="q504" value="0" onclick="clicked()">
+            <label for="">database purpose</label><br>
+            </div>
+            <div class="btnprev">
+              <button class="previous"><p>previous</p></button>
+              <button class="submit"><p>submit</p></button>
+            </div>
+             </div>
+     
+   
+</div>
+
+    </div>
+    <div class="results">
+      <div class="top">
+        <h1>SCORE</h1>
+      </div>
+      <div class="score">
+        <div class="icon1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+            <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+          </svg>
+        </div>
+        <div class="scoredisplay">
+          <h1> Your score is</h1>
+          <h2 id="displayscore"></h2>
+          <h1>You can reattempt the exam</h1>
+        </div>
+        <div class="icon2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-balloon-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
+          </svg>
+        </div>
+        
+      </div>
+      <div class="bottom">
+        <button id="retake"><p>RETAKE EXAM</p></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

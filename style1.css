@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+}
+nav{
+    height:60px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #618264;
+    align-items: center;
+    position: fixed;
+}
+nav h1{
+    color:#F1EFEF;
+    letter-spacing: 0.03cm;
+    margin-left: 15px;
+    font-size: 2em;
+    margin-top: 5px;
+    
+}
+.main{
+    height:900px;
+    width: 100%;
+    background-color: #8EACCD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.instructions{
+    height:500px;
+    width:65%;
+    background-color: white;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: centerS;
+    
+}
+.info{
+    padding-left: 25px;
+    padding-right: 25px;
+    height:80px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #618264;
+}
+.timer{
+    height:60px;
+    width:15%;
+    background-color: #6499E9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#minutes{
+    margin-top: 4px;
+}
+#seconds{
+    height:42px;
+    width:58px;
+    background-color: black;
+    color:white;
+    margin-left: 2px;
+    text-align: center;
+}
+.question{
+    height:500px;
+    width:100%;
+    background-color: aliceblue;
+    padding: 60px;
+    display: none;
+}
+
+.content{
+    height:300px;
+    width:80%;
+    
+    
+}
+label{
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.next{
+    height: 48px;
+    width: 100px;
+    background-color:#6499E9;
+    color:black;
+    margin-top: 10px;
+    text-align: center;
+}
+.next p{
+    font-size: 2em;
+}
+.btns{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.previous{
+    height: 48px;
+    width: 140px;
+    background-color:#618264;
+    color:black;
+   /* margin-left:800px;*/
+    text-align: center;
+}
+.previous p{
+    font-size: 2em;
+}
+.btnnext{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 800px;
+    align-items: center;
+}
+.btnnext{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.submit{
+    height: 48px;
+    width: 120px;
+    background-color:#6499E9;
+    color:black;
+    position: relative;
+    bottom: 40px;
+    margin-left: 730px;
+    text-align: center;
+}
+.submit p{
+    font-size: 2em;
+    color: black;
+}
+.results{
+    height:580px;
+    width:80%;
+    background-color: aqua;
+    position: absolute;
+    top:130px;
+left:170px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+visibility: hidden;
+}
+.top{
+    height:100px;
+    width:100%;
+    background-color: #618264;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.top h1{
+    font-size: 3em;
+    
+}
+.score{
+    height:400px;
+    width:100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom{
+    height:100px;
+    width:100%;
+    background-color: #618264;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom button{
+height: 60px;
+width:300px;
+background-color: #6499E9;
+text-align: center;
+}
+.bottom button p{
+    font-size: 2em;;
+}
+.bottom button:hover{
+    background-color: aliceblue;
+}
+.bottom button:hover p{
+    color: black;
+}
+
+.scoredisplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.scoredisplay h1{
+    font-size: 2em;
+}
+.scoredisplay h2{
+    font-size: 3em;
+}
+.next:hover{
+    border-radius: 20px;
+    
+}
+.previous:hover{
+    border-radius: 20px;
+}
